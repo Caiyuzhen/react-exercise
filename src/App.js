@@ -1,19 +1,24 @@
-//JSX 必须有且只有一个父元素
-//或者通过幽灵节点 < > </>
+import "./App.css"
 
-const activeFlag = true
 
-//模板逻辑,尽量不放复杂的逻辑
-function App() {
+const name = "这是一个 name"
+function App () {
   return (
     < >
-      <div>app1</div>
-      <div>app2</div>
+      <div className="App">
+        <div>
+          <p>
+            啦啦啦
+          </p>
+        </div>
+
+      </div>
+
     </>
   )
 }
 
 //最后需要 export 一下！
-export default App;
+export default App
 
 

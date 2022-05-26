@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+//JSX 必须有且只有一个父元素
+//或者通过幽灵节点 < > </>
 
+const activeFlag = true
+
+//模板逻辑,尽量不放复杂的逻辑
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    < >
+      <div>app1</div>
+      <div>app2</div>
+    </>
+  )
 }
 
+//最后需要 export 一下！
 export default App;
+
+

@@ -11,7 +11,7 @@ import React from "react"//引入 react 包
 //类组件状态
 class TestComponent extends React.Component {
   state = { //1.定义组件状态
-    //3.定义组件的各种属性，都是当前组件的状态
+    //3.定义组件的各种属性，都是当前组件的状态++
     name:'cp teacher'
   } 
 

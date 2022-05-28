@@ -17,7 +17,9 @@ class Counter extends React.Component {
 
     //在 React 这个体系下，【数据不可变】，不可以 ++，不可以直接 = XX
     //Value 用于都是上一次的值 +1,相当于【重新赋一次值】
-    this.setState({ count: this.state.count +1 })
+    this.setState({ 
+      count: this.state.count + 1 
+    })
   }
 
   

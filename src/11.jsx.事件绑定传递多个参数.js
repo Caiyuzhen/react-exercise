@@ -8,8 +8,8 @@ function Hello() {
   const clickHandler = (ee,msg) => { //同时打印 e 跟 msg 两个参数的做法
     console.log(ee,msg)
   }
-  return <div onClick={  
-    (e) => clickHandler(e,'我是消息的实参')//传入实参
+  return <div 
+    onClick={  (e) => clickHandler(e,'我是消息的实参')//传入实参
   }>点我发消息</div>
 }
 

@@ -10,12 +10,11 @@ import './index.css';
 import App from './App';
 
 
-//渲染根组件 APP 到 id 为 root 的 DOM 节点上
+//将渲染的【根组件-APP】 插入到 【 id 为 root 】的 【DOM 节点上】
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
     <App />
-
 
 );
 

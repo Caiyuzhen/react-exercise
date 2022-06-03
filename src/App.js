@@ -1,28 +1,31 @@
 import "./App.css"
-import React, { useState } from 'react' 
+import React from 'react' 
 
-//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+//🚀
+
+//🍎子组件：渲染列表结构
+function ListItem( {children} ){
+
+
+  return (
+    <>
+
+    </>
+  )
+}
 
 
 
-//🍎类组件 Father
+//🍎父组件：提供数据
+class Data extends React.Component {
 
-class Face extends React.Component {
+  render() {
+    return (
 
-  const [ Uname,setName ] = useState("")
-  render(){
-      return(
-        <div
-        style={{color:"#3370FF"}}>
-          <button
-            onClick={()=>{
-              setName(Uname + "🍎")
-            }}
-          >
-            你好{Uname}
-          </button>
+      <div>
+        <ListItem />
       </div>
-      )
+    )
   }
 
 };
@@ -31,6 +34,6 @@ class Face extends React.Component {
 
 
 // //最后需要 export 一下！
-export default Face
+export default Data
 
 

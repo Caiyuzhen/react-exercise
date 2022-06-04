@@ -22,7 +22,7 @@ import React from 'react'
 
       //【🌟 卸载(销毁)阶段】
           //钩子函数顺序: 
-            //1.componenWillUnmount （组件卸载前执行, 一般都是用来清理定时器）
+            //1.componentWillUnmount （组件卸载前执行, 一般都是用来清理定时器）
 
 
 
@@ -110,7 +110,7 @@ class Test extends React.Component {
   componentWillUnmount () {//5.【卸载(销毁)阶段】,一般都是用来清理定时器
     console.log('销毁阶段-5:componentWillUnmount');//卸载的时候才会执行
 
-    clearInterval(this.timer); //在 APP 内点击后，触发开启清理定时器的函数，清理定时器
+    clearInterval(this.timer); //【🌟一般在这个阶段清理定时器】在 APP 内点击后，触发开启清理定时器的函数
   }
 
 

@@ -6,8 +6,8 @@ import React from 'react'
 
 
 //🍎 函数组件的默认值
-  //方法一： Test.defaultProps，会改到 props (不推荐这么写)
-  //方法二：{pageSize=10} //推荐写法,函数参数默认值，不会改到 props
+  //🌟 方法一： Test.defaultProps，会改到 props (不推荐这么写)
+  //🌟 方法二：{pageSize=10} //推荐写法,函数参数默认值，不会改到 props
 
 function Test ({pageSize=10}) {
   return (

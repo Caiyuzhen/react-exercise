@@ -2,17 +2,22 @@ import "./App.css"
 import React from 'react' 
 
 //🚀组件的 Children 属性(高阶组件)
+
     //🔥What?
-      //当组件标签【内部写了东西后】，就会【自动生成】一个 children 属性
+      //当组件标签【内部写了东西后】，内容都是 【自动识别为 children 属性】并 【存入 props】
     
     //🔥What it's 可以是什么？
-      //普通文本
-      //普通标签元素
-      //JSX 模板
-      //函数
+        //普通文本
+        //普通标签元素
+        //JSX 模板
+        //函数
 
     //🔥How？如何使用？
       //在子组件内【 解构赋值 children 】
+
+
+  //🔥Why？
+      //应用场景：render Props 高阶函数
 
 
 

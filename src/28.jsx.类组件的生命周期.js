@@ -1,6 +1,6 @@
 import "./App.css"
 import React from 'react' 
-//引入 ReactDOM， 目的是为了使用 ReactDOM 的方法
+
 
 
 

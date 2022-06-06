@@ -72,8 +72,6 @@ function SonA (props){
   }
 
 
-
-
   return(
     <div>
       <button onClick = { clickFn }>给父组件传数据</button>

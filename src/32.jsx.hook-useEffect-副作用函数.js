@@ -6,6 +6,9 @@ import {useState,useEffect} from 'react'
 
 //🚀 Hooks - useEffect (副作用函数及其依赖项)
 
+    //回调时机
+      //在 DOM 渲染完之后
+
     //Why?
       //不写 class 的生命周期函数也能够完成业务代码
 

@@ -4,7 +4,7 @@ import React from 'react'
 import { useState,useEffect } from 'react'
 
 
-//🚀 Hook - useEffect 清除副作用(🌟最后写个 return 就行了)
+//🚀 Hook - useEffect 清除副作用(🌟在末尾写个 return 就行了)
 
   //useEffect(()=>{   🌟return ()=>{ }🌟    }
 

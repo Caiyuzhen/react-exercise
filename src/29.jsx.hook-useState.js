@@ -5,6 +5,13 @@ import {useState} from 'react'
 
 
 //🚀 Hooks - useState
+
+              
+    //🔥🔥🔥注意事项
+        //只能在函数组件中使用 🌟🔥不能出现在【if/for/内部函数（嵌套函数）】中, 因为依赖于 react hook API 的调用顺序
+        //比如if（num / 2 === 0）{ const [name,steName] = setState('cp) }
+
+
     // Why？
       //总结来说，解决两个问题：
         //1.组件的状态逻辑复用 🌟
@@ -41,16 +48,7 @@ import {useState} from 'react'
         //🔥特点
             //可以定义多个 useState 函数, 各自函数的【数据】跟【方法】都是独立的, 互相不影响
 
-        
-          
-        //🔥注意事项
-          //只能在函数组件中使用 🌟
-
-
-
-        //🔥不能出现在【if/for/内部函数（嵌套函数）】中, 因为依赖于 react hook API 的调用顺序
-          //比如if（num / 2 === 0）{ const [name,steName] = setState('cp) }
-
+      
         
   
     //How?
